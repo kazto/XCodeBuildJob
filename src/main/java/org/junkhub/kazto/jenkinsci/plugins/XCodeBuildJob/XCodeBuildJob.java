@@ -28,7 +28,7 @@ public class XCodeBuildJob
 
     @Override
     protected Class<XCodeBuildRun> getBuildClass() {
-        return XCodeBuildRun.class.getConstructor();
+        return XCodeBuildRun.class;
     }
 
     public DescriptorImpl getDescriptor() {
