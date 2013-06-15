@@ -1,7 +1,10 @@
 target/
 work/
+.idea/
 .DS_Store
 *~
+*#
+.#*
 
 *.class
 
